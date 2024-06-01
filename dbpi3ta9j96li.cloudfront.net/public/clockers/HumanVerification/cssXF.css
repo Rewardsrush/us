@@ -1,0 +1,46 @@
+#xf_MODAL_CONTAINER #xfMODALHEADER {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#xf_MODAL_CONTAINER #xfMODALFOOTER {
+    border-top: 1px solid #e5e5e5;
+}
+
+#xf_MODAL_CONTAINER #xfMODALCONTENT {
+    background-size: cover !important;
+}
+
+#xf_MODAL_CONTAINER #xfMODALCONTENT {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid rgba(0, 0, 0, .2);
+    background: white;
+}
+
+#xf_MODAL_CONTAINER #xf_MODAL {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+#xf_MODAL_CONTAINER #xfMODALTITLE {
+    padding: 10px;
+}
+
+#xf_MODAL_CONTAINER .fa {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+@media screen and (min-width: 600px) and (max-width:790px) {
+    #xf_MODAL_CONTAINER #xfMODALCONTENT {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #xf_MODAL_CONTAINER #xfMODALCONTENT {
+        width: 100%;
+        min-width: 320px;
+    }
+}
